@@ -2,3 +2,11 @@
 # (try doing the same thing in the JS console and see what it outputs)
 
 # YOUR CODE HERE
+var msg = 'Hello world'
+
+
+console.log(msg)
+
+$('#msg').html(msg)
+
+//Otherwise,missing statement"
