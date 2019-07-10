@@ -9,7 +9,7 @@ def changeX():
 
 changeX()
 
-# This prints 12. What do we have to modify in changeX() to get it to print 99?
+# This prints 12. What do we have to modify in changeX() to get it to print 99? -87. global  before change
 print(x)
 
 
