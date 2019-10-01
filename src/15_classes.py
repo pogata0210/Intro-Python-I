@@ -30,6 +30,7 @@ class Geocache(Waypoint):
      def __init__(self, name, difficulty, size, lat, lon):
         super()
         self.name = name
+        self.size = size
         self.difficulty = difficulty
         self.lat = lat
         self.lon = lon
