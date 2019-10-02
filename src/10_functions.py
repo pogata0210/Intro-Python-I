@@ -17,11 +17,11 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 def define_number(num):
 
-    if num %2 == 0:
+    if num % 2 == 0:
         return "Even"
     else: return "Odd"
 
-print (define_number(12))
+print (define_number(num))
 
 # YOUR CODE HERE
 
