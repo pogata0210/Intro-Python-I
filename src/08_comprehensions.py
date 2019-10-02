@@ -29,10 +29,13 @@ print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
+def even_num(l):
+    x = input("Enter comma-separated numbers: ").split(',')
+    if x %2 == 0:
+        return "input is even"
+    else: return "input is odd"
 
-x = input("Enter comma-separated numbers: ").split(',')
+
 
 # What do you need between the square brackets to make it work?
-y = []
 
-print(y)

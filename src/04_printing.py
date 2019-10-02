@@ -13,11 +13,10 @@ z = "I like turtles!"
 # x is 10, y is 2.25, z is "I like turtles!"
 
 # Use the 'format' string method to print the same thing
-arr=[10,2.5, "I like turtles!"]
-print (arr)
+#arr=[10,2.5, "I like turtles!"]
+#print (arr)
 
 # Finally, print the same thing using an f-string
 arr=[10,2.5, "I like turtles!"]
-print (arr)
+print(f"{x},{y},{z}")
 
-"{0}.{1}.{2}.".format(10, 2.5, "I like turles!")

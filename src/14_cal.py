@@ -22,3 +22,20 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+for arg in sys.argv:
+    print(arg)
+    
+d = datetime(2019,10,2).today()
+print(d)
+    
+def Call_Mon(month=d, year = d):
+     global calendar
+     print(calendar.TextCalendar().formatmonth(year, month))
+       
+try:
+    user_enterd = input (
+                "enter month and year separated by comma:".split(','))
+    Call_Mon(*[int(i) for i in user_entered if user_entered != ['']])
+except:
+    print("Invalid input. Please try again.")
